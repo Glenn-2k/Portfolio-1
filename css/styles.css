@@ -22,6 +22,7 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 100px;
 }
 
 body {
@@ -66,5 +67,9 @@ nav a {
 /* MAIN */
 
 section {
-  height: 100dvh;;
+  height: 100dvh;
+}
+
+section:first-of-type {
+  margin-top: 100px;
 }
