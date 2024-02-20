@@ -90,3 +90,21 @@ section {
 section:first-of-type {
   margin-top: 100px;
 }
+
+.section1 {
+display: block;
+}
+
+.profileContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+}
+
+.profilePicture {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  margin: 0 auto;
+  display: block;
+}
