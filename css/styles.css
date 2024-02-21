@@ -123,8 +123,15 @@ align-items: center;
 
 /* PROJECTS */
 
+.projectsContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
 .flipProjects {
-  width: 500px;
+  width: 400px;
   aspect-ratio: 16/9;
   perspective: 3200px;
   position: relative;
@@ -163,4 +170,22 @@ transform: rotateX(-180deg);
 
 .flipProjects:hover .flipBack {
   transform: rotateX(0deg);
+}
+
+.front1 {
+  background-image: url(/images/gamehub.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.front2 {
+  background-image: url(/images/museum.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.front3 {
+  background-image: url(/images/cabincrafts.png);
+  background-size: cover;
+  background-position: center;
 }
