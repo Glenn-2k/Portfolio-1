@@ -67,8 +67,6 @@ header {
 
 /* Nav */
 
-nav {
-}
 
 nav ul {
   display: flex;
@@ -252,7 +250,7 @@ text-transform: uppercase;
 .contactForm input,
 textarea {
   padding: 8px 20px;
-  border: 1px solid whitesmoke
+  border: 1px solid whitesmoke;
   opacity: 0.5;
   border-radius: 6px;
   font-size: 0.8rem;
