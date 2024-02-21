@@ -85,19 +85,24 @@ nav a {
 
 section {
   height: 100dvh;
+  margin-left: 5rem;
+  margin-right: 5rem;
 }
 
-section:first-of-type {
+/* section:first-of-type {
   margin-top: 100px;
-}
+} */
 
 .section1 {
-display: block;
+display: grid;
+justify-content: center;
+align-items: center;
 }
 
 .profileContainer {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  align-items: center;
 
 }
 
