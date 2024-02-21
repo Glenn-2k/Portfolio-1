@@ -9,4 +9,17 @@
     .projectsContainer {
       grid-template-columns: 1fr; 
     }
+
+    section:first-of-type {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+
+@media (max-width: 500px) {
+    section {
+        margin-left: 1rem;
+        margin-right: 1rem;
+}
 }
