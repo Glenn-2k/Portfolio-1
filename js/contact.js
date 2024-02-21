@@ -6,14 +6,16 @@ const message = document.querySelector("#message");
 const messageError = document.querySelector("#messageError");
 
 const contactForm = document.querySelector(".contactForm");
+
 export function formValidator() {
   if (contactForm) {
     contactForm.addEventListener("submit", validateForm);
   }
 }
 
-export function validateForm(event) {
-  if (checkLength(name.value, 4) === true) {
+ function validateForm(event) {
+
+  if (checkLength(name.value, 1) === true) {
     nameError.style.display = "none";
   } else {
     nameError.style.display = "block";
@@ -28,7 +30,7 @@ export function validateForm(event) {
   }
 
 
-  if (checkLength(message.value, 24) === true) {
+  if (checkLength(message.value, 0) === true) {
     messageError.style.display = "none";
   } else {
     messageError.style.display = "block";

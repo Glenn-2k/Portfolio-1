@@ -1,3 +1,4 @@
-import { validateForm } from "./contact.js";
+import { formValidator } from "./contact.js";
 
-validateForm();
+
+formValidator();
