@@ -78,10 +78,13 @@
         <form class="contactForm" action="submit">
           <label for="name">Name</label>
           <input type="text" placeholder="Insert name here" id="name" name="name" />
+          <div class="formError" id="nameError">Please insert a name</div>
           <label for="email">Email</label>
           <input type="email" placeholder="Insert mail here" id="email" name="email" />
+          <div class="formError" id="emailError">Must be a valid Email-adress</div>
           <label for="message">Message</label>
           <textarea id="message" placeholder="Insert message here" name="message"></textarea>
+          <div class="formError" id="messageError">You forgot to enter a message</div>
           <input type="submit" value="Send message"/>
         </form>
       </div>
