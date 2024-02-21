@@ -131,6 +131,12 @@ align-items: center;
   margin-bottom: 2rem;
 }
 
+.aboutText {
+  font-size: 1.2rem;
+  text-align: center;
+  margin: 2rem;
+}
+
 
 /* PROJECTS */
 
