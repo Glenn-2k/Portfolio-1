@@ -233,3 +233,18 @@ transform: rotateX(-180deg);
 .linkButtons {
 text-transform: uppercase;
 }
+
+
+
+/* CONTACT */
+
+.contactFormContainer {
+  display: flex;
+  justify-content: center;
+  /* margin: 2rem; */
+}
+
+.contactForm {
+  display: grid;
+  margin-top: 20px;
+}

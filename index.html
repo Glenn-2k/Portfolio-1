@@ -74,15 +74,17 @@
       </section>  
       <section class="section3" id="contact">
         <h1>Contact</h1>
-        <form action="submit">
+        <div class="contactFormContainer">
+        <form class="contactForm" action="submit">
           <label for="name">Name</label>
-          <input type="text" id="name" name="name" />
+          <input type="text" placeholder="Insert name here" id="name" name="name" />
           <label for="email">Email</label>
-          <input type="email" id="email" name="email" />
+          <input type="email" placeholder="Insert mail here" id="email" name="email" />
           <label for="message">Message</label>
-          <textarea id="message" name="message"></textarea>
-          <button type="submit">Send</button>
+          <textarea id="message" placeholder="Insert message here" name="message"></textarea>
+          <input type="submit" value="Send message"/>
         </form>
+      </div>
       </section>
     </main>
     <footer>
