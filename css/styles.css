@@ -20,6 +20,13 @@
   --text-colour: snow;
 }
 
+a {
+  color: inherit; /* Makes the color the same as the parent text */
+  text-decoration: none; /* Removes underline */
+  font-family: inherit; /* Ensures font matches the surrounding text */
+  font-size: inherit; /* Matches font size to surrounding text */
+}
+
 /* Body */
 
 html {
@@ -216,6 +223,6 @@ transform: rotateX(-180deg);
 }
 
 .linkButtons {
-  font-size: 0.8rem;
-  font-weight: 500;
+  /* font-size: 0.8rem;
+  font-weight: 500; */
 }
