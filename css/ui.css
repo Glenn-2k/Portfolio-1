@@ -89,7 +89,7 @@ nav a {
 /* MAIN */
 
 section {
-  height: 100dvh;
+  height: 100svh;
   margin-left: 5rem;
   margin-right: 5rem;
 }
@@ -310,6 +310,31 @@ label {
   margin-top: 1px;
 }
 
+.contactContainer {
+  display: grid;  
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.contactText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+}
+
+.socialMediaContainer {
+  margin-top: 5rem;
+}
+
+.socialMediaLink {
+  margin: 1rem;
+}
+
+
 
 
 
@@ -319,5 +344,5 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-height: 60px;
+  height: 60px;
 }
