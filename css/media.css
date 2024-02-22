@@ -5,6 +5,15 @@
     }
 }
 
+
+
+
+
+
+
+/* TABLETS/SMALLER SCREENS  */
+
+
 @media (max-width: 1000px) {
     .projectsContainer {
       grid-template-columns: 1fr; 
@@ -19,6 +28,13 @@
         grid-template-columns: 1fr;
     }
 }
+
+
+
+
+
+
+/* MOBILE */
 
 
 @media (max-width: 500px) {

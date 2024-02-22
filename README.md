@@ -6,7 +6,7 @@ A simple overview of the use/purpose of the project.
 
 ## Description
 
-Add a more detailed description of what your project entails and set out to do.
+Add a more detaild description of what your project entails and set out to do.
 
 You can add some bullet points if you'd like to:
 
