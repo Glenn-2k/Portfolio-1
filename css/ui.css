@@ -89,7 +89,7 @@ nav a {
 /* MAIN */
 
 section {
-  height: 100dvh;
+  height: 100svh;
   margin-left: 5rem;
   margin-right: 5rem;
 }
@@ -100,9 +100,7 @@ h1 {
   text-align: left;
 }
 
-/* section:first-of-type {
-  margin-top: 100px;
-} */
+
 
 .section1 {
 display: grid;
