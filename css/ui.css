@@ -252,7 +252,6 @@ text-transform: uppercase;
 textarea {
   padding: 8px 20px;
   border: 1px solid whitesmoke;
-  opacity: 0.5;
   border-radius: 6px;
   font-size: 0.8rem;
 }
@@ -260,16 +259,14 @@ textarea {
 
 
 .contactForm input:hover,
-textarea:hover,
-.contactForm input[type="submit"]:hover {
+textarea:hover {
   opacity: 0.8;
 }
 
-.contactForm input:focus,
-textarea:focus {
+.contactForm input:focus, textarea:focus {
   outline: none;
-  border: 1px solid rgba(108, 132, 116, 0.9);
 }
+
 
 .contactForm input[type="submit"] {
   background-color: snow;
@@ -286,9 +283,9 @@ textarea:focus {
 }
 
 .contactForm input[type="submit"]:hover {
-  background-color: var(--bg-main-colour);
-  color: var(--button-orange);
-  border: 2px dashed var(--button-orange);
+  background-color: black;
+  color: snow;
+  border: 1px solid snow;
   border-radius: 6px;
 }
 
