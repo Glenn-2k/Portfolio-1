@@ -14,6 +14,10 @@
         margin-left: 0;
         margin-right: 0;
     }
+
+    .contactContainer {
+        grid-template-columns: 1fr;
+    }
 }
 
 
@@ -25,5 +29,11 @@
     section {
         margin-left: 1rem;
         margin-right: 1rem;
-}
+    }
+
+    .aboutText {
+        font-size: 0.8rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
 }
