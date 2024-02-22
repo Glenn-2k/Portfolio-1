@@ -85,6 +85,11 @@ nav a {
   text-transform: uppercase;
 }
 
+nav a:hover {
+  color: #FFD700;
+  transition: color 0.5s ease-in-out;
+}
+
 
 /* MAIN */
 
