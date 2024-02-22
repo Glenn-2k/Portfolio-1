@@ -70,6 +70,10 @@ header {
   margin-left: 1rem;
 }
 
+.logoContainer:hover {
+  cursor: pointer;
+}
+
 .logo {
   height: 100%;
   width: auto;
