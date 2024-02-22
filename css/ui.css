@@ -221,22 +221,21 @@ transform: rotateX(-180deg);
   transform: rotateX(0deg);
 }
 
-.front1 {
-  background-image: url(/images/gamehub.png);
+.front1, .front2, .front3 {
   background-size: cover;
   background-position: center;
+}
+
+.front1 {
+  background-image: url(/images/gamehub.png);
 }
 
 .front2 {
   background-image: url(/images/museum.png);
-  background-size: cover;
-  background-position: center;
 }
 
 .front3 {
   background-image: url(/images/cabincrafts.png);
-  background-size: cover;
-  background-position: center;
 }
 
 .infoContainer {
@@ -246,16 +245,18 @@ transform: rotateX(-180deg);
   align-items: center;
 }
 
+.projectTitle, .projectInfo {
+  text-align: center;
+}
+
 .projectTitle {
   font-size: 1.1rem;
-  text-align: center;
   margin-top: 10px;
 }
 
 .projectInfo {
   font-size: 0.8rem;
   margin: 20px 0;
-  text-align: center;
 }
 
 .githubLink, .liveLink {
@@ -268,12 +269,21 @@ text-transform: uppercase;
 
 
 
+
+
+
+
+
+
+
+
+
+
 /* CONTACT */
 
 .contactFormContainer {
   display: flex;
   justify-content: center;
-  /* margin: 2rem; */
 }
 
 .contactForm {
@@ -302,9 +312,8 @@ textarea:hover {
 
 
 .contactForm input[type="submit"] {
-  background-color: snow;
-  color: black;
-  opacity: 1;
+  background-color: var(--text-colour);
+  color: var(--bg-colour);
   cursor: pointer;
   padding: 7px 10px;
   justify-self: end;
@@ -316,9 +325,9 @@ textarea:hover {
 }
 
 .contactForm input[type="submit"]:hover {
-  background-color: black;
-  color: snow;
-  border: 1px solid snow;
+  background-color: var(--bg-colour);
+  color: var(--text-colour);
+  border: 1px solid var(--text-colour);
   border-radius: 6px;
 }
 
@@ -338,19 +347,20 @@ label {
   margin-top: 1px;
 }
 
+.contactContainer, .contactText {
+  justify-content: center;
+  align-items: center;
+}
+
 .contactContainer {
   display: grid;  
   grid-template-columns: 1fr 1fr;
-  justify-content: center;
-  align-items: center;
   margin-top: 2rem;
 }
 
 .contactText {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   margin: 2rem;
 }
 
@@ -377,6 +387,13 @@ label {
 .fa-instagram:hover {
   color: #C13584;
 }
+
+
+
+
+
+
+
 
 
 
