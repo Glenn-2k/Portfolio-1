@@ -110,8 +110,10 @@ h1 {
 }
 
 .section1 {
-  margin-left: 5rem;
+  /* margin-left: 5rem; */
   display: grid;
+  /* margin-top: 60px; */
+  margin: 3.75rem 0 0 5rem;
 }
 
 .profileContainer {
