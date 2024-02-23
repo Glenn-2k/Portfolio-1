@@ -37,6 +37,10 @@
     margin-top: 60px;
   }
 
+  section:last-of-type {
+    margin-top: 30px;
+  }
+
   .aboutText {
     font-size: 0.8rem;
     margin-left: 1rem;
