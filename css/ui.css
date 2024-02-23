@@ -16,22 +16,17 @@
 :root {
   --bg-colour: #000;
   --text-colour: snow;
-  --nav-hover: #FFD700;
+  --nav-hover: #ffd700;
   --card-backside: wheat;
   --card-text: gray;
 }
 
 a {
-  color: inherit; 
-  text-decoration: none; 
-  font-family: inherit; 
-  font-size: inherit; 
+  color: inherit;
+  text-decoration: none;
+  font-family: inherit;
+  font-size: inherit;
 }
-
-
-
-
-
 
 /* Body */
 
@@ -44,10 +39,6 @@ body {
   background-color: var(--bg-colour);
   color: var(--text-colour);
 }
-
-
-
-
 
 /* Header */
 
@@ -81,7 +72,6 @@ header {
 
 /* Nav */
 
-
 nav ul {
   display: flex;
   flex-direction: row;
@@ -105,22 +95,6 @@ nav a:hover {
   transition: color 0.5s ease-in-out;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* MAIN */
 
 section {
@@ -135,9 +109,9 @@ h1 {
   text-align: left;
 }
 
-
 .section1 {
-display: grid;
+  margin-left: 5rem;
+  display: grid;
 }
 
 .profileContainer {
@@ -145,11 +119,13 @@ display: grid;
   flex-direction: column;
 }
 
-.profileContainer, .aboutText {
+.profileContainer,
+.aboutText {
   margin: 2rem;
 }
 
-.section1, .profileContainer {
+.section1,
+.profileContainer {
   justify-content: center;
   align-items: center;
 }
@@ -167,18 +143,6 @@ display: grid;
   font-size: 1rem;
   text-align: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* PROJECTS */
 
@@ -201,7 +165,8 @@ display: grid;
   position: relative;
 }
 
-.flipFront, .flipBack {
+.flipFront,
+.flipBack {
   width: 100%;
   height: 100%;
   border-radius: 15px;
@@ -216,15 +181,14 @@ display: grid;
 }
 
 .flipFront {
-transform: rotateX(0deg);
+  transform: rotateX(0deg);
 }
 
 .flipBack {
-background-color: var(--card-backside);
-color: var(--card-text);
-transform: rotateX(-180deg);
+  background-color: var(--card-backside);
+  color: var(--card-text);
+  transform: rotateX(-180deg);
 }
-
 
 .flipProjects:hover .flipFront {
   transform: rotateX(180deg);
@@ -234,7 +198,9 @@ transform: rotateX(-180deg);
   transform: rotateX(0deg);
 }
 
-.front1, .front2, .front3 {
+.front1,
+.front2,
+.front3 {
   background-size: cover;
   background-position: center;
 }
@@ -258,7 +224,8 @@ transform: rotateX(-180deg);
   align-items: center;
 }
 
-.projectTitle, .projectInfo {
+.projectTitle,
+.projectInfo {
   text-align: center;
 }
 
@@ -272,25 +239,14 @@ transform: rotateX(-180deg);
   margin: 20px 0;
 }
 
-.githubLink, .liveLink {
+.githubLink,
+.liveLink {
   font-size: 0.9rem;
 }
 
 .linkButtons {
-text-transform: uppercase;
+  text-transform: uppercase;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* CONTACT */
 
@@ -312,17 +268,15 @@ textarea {
   font-size: 0.8rem;
 }
 
-
-
 .contactForm input:hover,
 textarea:hover {
   opacity: 0.8;
 }
 
-.contactForm input:focus, textarea:focus {
+.contactForm input:focus,
+textarea:focus {
   outline: none;
 }
-
 
 .contactForm input[type="submit"] {
   background-color: var(--text-colour);
@@ -360,13 +314,14 @@ label {
   margin-top: 1px;
 }
 
-.contactContainer, .contactText {
+.contactContainer,
+.contactText {
   justify-content: center;
   align-items: center;
 }
 
 .contactContainer {
-  display: grid;  
+  display: grid;
   grid-template-columns: 1fr 1fr;
   margin-top: 2rem;
 }
@@ -385,30 +340,23 @@ label {
   margin: 1rem;
 }
 
-.fa-facebook, .fa-linkedin, .fa-instagram {
+.fa-facebook,
+.fa-linkedin,
+.fa-instagram {
   transition: color 0.5s ease-in-out;
 }
 
 .fa-facebook:hover {
-  color: #1877F2;
+  color: #1877f2;
 }
 
 .fa-linkedin:hover {
-  color: #0A66C2;
+  color: #0a66c2;
 }
 
 .fa-instagram:hover {
-  color: #C13584;
+  color: #c13584;
 }
-
-
-
-
-
-
-
-
-
 
 /* FOOTER */
 
