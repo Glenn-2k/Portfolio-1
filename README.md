@@ -1,70 +1,35 @@
-# Your project title
+# Portfolio assignment
 
-![image](https://user-images.githubusercontent.com/52622303/164316813-4b12d99f-aeb7-4069-85cf-e72b3a50ac99.png)
-
-A simple overview of the use/purpose of the project.
+![image](https://github.com/Glenn-2k/Portfolio-1/blob/main/images/Glennv2__1_-removebg-preview.png)
 
 ## Description
 
-Add a more detaild description of what your project entails and set out to do.
-
-You can add some bullet points if you'd like to:
-
-- List item 1
-- List item 2
-- List item 3
+The last assignment of the first year at Noroff was to make a portfolio website highlighting 3 of our previous assignments.
 
 ## Built With
 
 You can list a the tech stack that you've used over here
 
-- [React.js](https://reactjs.org/)
-- [Bootstrap](https://getbootstrap.com)
+- Figma
+- HTML
+- CSS
+- JS
 
 ## Getting Started
 
-### Installing
-
-This is where you list how to get the project started. It typically just includes telling a person to clone the repo and then to install the dependencies e.g.
-
-1. Clone the repo:
-
-```bash
-git clone git@github.com:NoroffFEU/portfolio-1-example.git
-```
-
-2. Install the dependencies:
-
-```
-npm install
-```
-
-### Running
-
-Here is where you detail how to run the app. It typically involves the commands you'd need to run to start the project e.g.
-
-To run the app, run the following commands:
-
-```bash
-npm run start
-```
+1. [Clone the repo](https://github.com/Glenn-2k/Portfolio-1)
+2. [Visit the website](https://portfolio-glenn.netlify.app/)
 
 ## Contributing
 
-Here you can detail any information you want to provide regarding contributing to the project. For big projects you will usually have a separate `CONTRIBUTING.md` and link to it, but for smaller projects you can simply include instructions here. These instructions can simply detail the process you want a person to take, such as to make sure to open a pull request so code can be reviewed.
+If you want to contribute, I would appreciate it if you open a pull request, so that the code can be reviewed.
 
 ## Contact
 
-This is where you can leave your social links for people to contact you, such as a LinkedIn profile or Twitter link e.g.
+Feel free to get in touch!
 
-[My Twitter page](www.twitter.com)
+[Email](mailto:glenn.andre.kristiansen@gmail.com)
 
-[My LinkedIn page](www.linkedin.com)
+[Twitter](www.twitter.com/Glenn2k)
 
-## License
-
-You can link to your license file here if you're using one, or mention what license the codebase falls under. If you're unsure then you can simply delete this section.
-
-## Acknowledgments
-
-This is where you can add any acknowledgements if you'd like, such as to people who have helped you or any code snippets you'd like to mention. You can delete this section if you don't have any acknowledgements to make.
+[LinkedIn](www.linkedin.com/in/glenn-andré-kristiansen-7a4b3975)
