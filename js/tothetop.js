@@ -1,10 +1,22 @@
-export function toTheTop() {
-    const logoContainer = document.querySelector(".logoContainer");
+export function getToTop() {
+  const upArrow = document.getElementById("toTheTop");
 
-    logoContainer.addEventListener('click', function() {
-        window.scrollTo({
-            top: 0,
-            behavior: 'smooth'
-        });
-    });
+  window.onscroll = function () {
+    scrollFunction();
+  };
+
+  function scrollFunction() {
+    if (
+      document.body.scrollTop > 20 ||
+      document.documentElement.scrollTop > 20
+    ) {
+      upArrow.style.display = "block";
+    } else {
+      upArrow.style.display = "none";
+    }
+  }
+
+  upArrow.onclick = function () {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
 }
