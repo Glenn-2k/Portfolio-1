@@ -40,6 +40,22 @@ body {
   color: var(--text-colour);
 }
 
+#toTheTop {
+  display: hidden;
+  position: fixed;
+  bottom: 30px;
+  right: 40px;
+  z-index: 99;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+
+#toTheTop i {
+  color: var(--text-colour);
+  font-size: 50px;
+}
+
 /* Header */
 
 header {
