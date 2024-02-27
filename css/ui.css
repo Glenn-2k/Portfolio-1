@@ -49,11 +49,21 @@ body {
   cursor: pointer;
   background-color: transparent;
   border: none;
+  transition: transform 1.3s ease-in-out;
+}
+
+#toTheTop:hover {
+  transform: rotateY(360deg);
 }
 
 #toTheTop i {
   color: var(--text-colour);
   font-size: 50px;
+}
+
+#toTheTop i:hover {
+  color: var(--nav-hover);
+  transition: color 1.4s ease-in-out;
 }
 
 /* Header */
