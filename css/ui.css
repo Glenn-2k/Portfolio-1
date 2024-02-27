@@ -41,7 +41,7 @@ body {
 }
 
 #toTheTop {
-  display: hidden;
+  display: none;
   position: fixed;
   bottom: 30px;
   right: 40px;
